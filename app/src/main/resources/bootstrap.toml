@@ -1,0 +1,6 @@
+aws.client.system-manager.parameterstore.enabled = true
+consul.client.defaultZone = '${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}'
+
+[micronaut]
+application.name = 'ecommsuiteMicronaut17'
+config-client.enabled = true
